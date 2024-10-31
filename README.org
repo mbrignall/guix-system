@@ -1,4 +1,12 @@
 #+TITLE: My Guix-System configuration
 
 
-* guix-system
+* Guix-System
+
+This is a initial pass at setting up Guix at a system level. It has a similar approach to my NixOS config.
+
+** Sway
+
+** Discoveries
+
+** Future Plans
