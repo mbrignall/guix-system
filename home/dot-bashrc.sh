@@ -25,7 +25,7 @@ fi
 # Adjust the prompt depending on whether we're in 'guix environment'.
 if [ -n "$GUIX_ENVIRONMENT" ]
 then
-    PS1="\\u@\\h \\w λ [env]"
+    PS1="\[\e[38;5;165m\]\u\[\e[38;5;171m\]@\[\e[38;5;213m\]\h \[\e[38;5;219m\]\w \[\033[0m\]$ [env]"
 else
-    PS1="\\u@\\h \\w λ "
+    PS1="\[\e[38;5;165m\]\u\[\e[38;5;171m\]@\[\e[38;5;213m\]\h \[\e[38;5;219m\]\w \[\033[0m\]$ "
 fi
