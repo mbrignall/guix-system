@@ -1,12 +1,3 @@
-;; This is an operating system configuration generated
-;; by the graphical installer.
-;;
-;; Once installation is complete, you can learn and modify
-;; this file to tweak the system configuration, and pass it
-;; to the 'guix system reconfigure' command to effect your
-;; changes.
-
-
 ;; Indicate which modules to import to access the variables
 ;; used in this configuration.
 (use-modules (gnu)
@@ -73,6 +64,7 @@ user        ALL=(ALL) NOPASSWD:/run/current-system/profile/bin/loginctl"))
     (supplementary-groups
      '("wheel" "netdev" "audio" "video")))
    %base-user-accounts))
+ 
  ;; Packages installed system-wide.  Users can also install packages
  ;; under their own account: use 'guix search KEYWORD' to search
  ;; for packages and 'guix install PACKAGE' to install a package.
@@ -105,6 +97,7 @@ user        ALL=(ALL) NOPASSWD:/run/current-system/profile/bin/loginctl"))
     xdg-desktop-portal-wlr
     zsh)
    %base-packages))
+ 
  ;; Below is the list of system services.  To search for available
  ;; services, run 'guix system search KEYWORD' in a terminal.
  (services

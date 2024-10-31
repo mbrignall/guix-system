@@ -3,10 +3,14 @@
 
 * Guix-System
 
-This is a initial pass at setting up Guix at a system level. It has a similar approach to my NixOS config.
+This is a initial pass at setting up Guix at a system level. It has a similar approach to my NixOS config, but requires learning Guile Scheme which I'm excited about. I wanted to use Sway as I already had lots of config files for the various features that work with it like Waybar, Fuzzel and Swaylock.
 
 ** Sway
 
 ** Discoveries
 
 ** Future Plans
+
+*** TODO modulise the config, split the code up.
+
+*** TODO Explore new features/differences for Guix
