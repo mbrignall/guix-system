@@ -22,7 +22,7 @@ So far - Guix and Guile Scheme is different and quite challenging to get accusto
 
 ** Future Plans
 
-*** TODO modulise the config, split the code up.
+*** TODO Modularize the config, split the code up.
 
 *** TODO Explore new features/differences for Guix
 
