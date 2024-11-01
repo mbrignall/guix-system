@@ -140,6 +140,7 @@ user        ALL=(ALL) NOPASSWD:/run/current-system/profile/bin/loginctl"))
     (target
      (uuid
       "bba2936a-8c33-4a9e-bab9-21b5bb5f4094")))))
+ 
  ;; The list of file systems that get "mounted".  The unique
  ;; file system identifiers there ("UUIDs") can be obtained
  ;; by running 'blkid' in a terminal.

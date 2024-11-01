@@ -1,4 +1,6 @@
 #+TITLE: My Guix-System configuration
+#+AUTHOR: mbrignall
+#+DATE: 2024-11-01
 
 
 * Guix-System
@@ -20,10 +22,10 @@ So far - Guix and Guile Scheme is different and quite challenging to get accusto
   - Minimal Sway config: [[https://gitlab.com/endocrin/guix-sway/-/blob/master/guix-sway-config.scm?ref_type=heads][guix-sway-config]]
   - System Crafters: [[https://www.youtube.com/watch?v=oSy-TmoxG_Y][Installing Guix as a complete GNU/Linux system]]
 
-** Future Plans
+* Future Plans
 
-*** TODO Modularize the config, split the code up.
+** TODO Modularize the config, split the code up
 
-*** TODO Explore new features/differences for Guix
+** TODO Explore new features/differences for Guix
 
-*** TODO Achieve parity with my current NixOS config
+** TODO Achieve parity with my current NixOS config
