@@ -5,12 +5,25 @@
 
 This is a initial pass at setting up Guix at a system level. It has a similar approach to my NixOS config, but requires learning Guile Scheme which I'm excited about. I wanted to use Sway as I already had lots of config files for the various features that work with it like Waybar, Fuzzel and Swaylock.
 
+[[https://systemcrafters.net/c][System Crafters]] has played a massive influence in the direction I've taken my leaning in th elast couple of years. From making my blog, to system crafting, David Wilson has provided many gems of knowledge and guidance, which has been invaluable in my learning journey.
+
+I'm using a laptop with Nvidia GPU and is fairly modern so required non-gnu dependencies installing like the Linux firmware and kernel, plus some audio packages/firmware included with the SOF packages.
+
 ** Sway
 
+I stole the config from another repo to get this up and running but it needs some work. The themes are a bit off and I could do with exploring other options for WM. I used the link below for the initial setup with Guix, which gave the basic packages and config needed.
+
 ** Discoveries
+
+So far - Guix and Guile Scheme is different and quite challenging to get accustomed with but I've made progress so far and found some good resources like:
+
+  - Minimal Sway config: [[https://gitlab.com/endocrin/guix-sway/-/blob/master/guix-sway-config.scm?ref_type=heads][guix-sway-config]]
+  - System Crafters: [[https://www.youtube.com/watch?v=oSy-TmoxG_Y][Installing Guix as a complete GNU/Linux system]]
 
 ** Future Plans
 
 *** TODO modulise the config, split the code up.
 
 *** TODO Explore new features/differences for Guix
+
+*** TODO Achieve parity with my current NixOS config
