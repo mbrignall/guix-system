@@ -1,6 +1,6 @@
 ;; Indicate which modules to import to access the variables
 ;; used in this configuration.
-(define-module (config system config)
+(define-module (system config)
   #:use-module (gnu)
   #:use-module (gnu home)
   #:use-module (gnu packages)
