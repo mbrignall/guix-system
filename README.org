@@ -25,8 +25,8 @@ So far - Guix and Guile Scheme is different and quite challenging to get accusto
 
 * Future Plans
 
-** TODO Modularize the config, split the code up
+** TODO Modularize the config - Todo
 
-** TODO Explore new features/differences for Guix
+** TODO Explore new features/packages - Todo
 
-** TODO Achieve parity with my current NixOS config
+** TODO Achieve parity with current NixOS config - Todo
