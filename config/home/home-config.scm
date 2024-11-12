@@ -5,12 +5,15 @@
   #:use-module (gnu home services sound)
   #:use-module (gnu home services shells)
   #:use-module (gnu packages)
-  #:use-module (guix gexp))
+  #:use-module (guix gexp)
+  #:use-module (home packages emacs-config))
 
 (use-package-modules fonts
                      version-control
+                     gnucash
                      guile
                      guile-xyz
+                     libreoffice
                      emacs
                      emacs-xyz
                      linux
@@ -38,8 +41,7 @@
         sdl2))
 
 (define aloysius-packages
-  (list firefox
-        font-hack ;;|--> gnu packages fonts
+  (list font-hack ;;|--> gnu packages fonts
         font-jetbrains-mono
         font-fira-code
         font-iosevka-aile
@@ -47,6 +49,8 @@
         font-google-noto-emoji
         font-google-noto-sans-cjk
         brightnessctl
+        gnucash
+        libreoffice
         zip
         unzip))
 

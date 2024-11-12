@@ -1,5 +1,6 @@
-(define-module (home services emacs-config)
-  #use-module: (gnu packages))
+(define-module (home packages emacs-config)
+  #:use-module (gnu packages)
+  #:export (emacs-config))
 
 (use-package-modules emacs
                      emacs-xyz

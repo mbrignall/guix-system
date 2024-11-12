@@ -70,7 +70,7 @@ user        ALL=(ALL) NOPASSWD:/run/current-system/profile/bin/loginctl"))
    (keyboard-layout
     (keyboard-layout "us"))
    (host-name "aloysius")
-   (kernel linux)
+   (kernel linux-lts)
    (initrd microcode-initrd)
    (firmware
     (list sof-firmware linux-firmware))
