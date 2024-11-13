@@ -8,7 +8,7 @@
   #:use-module (home services xdg-files)
   #:use-module (gnu packages)
   #:use-module (guix gexp)
-  #:use-module (home packages emacs-config))
+  #:use-module (home services emacs-config))
 
 (use-package-modules fonts
                      version-control
@@ -67,6 +67,7 @@
      (list
       ;; XDG files configuration
       (service home-xdg-local-files-service-type)
+      (service home-emacs-config-service-type)
       ;; Primary Bash configuration
       (service
        home-bash-service-type

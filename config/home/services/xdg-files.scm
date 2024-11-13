@@ -7,7 +7,7 @@
   #:export (home-xdg-local-files-service-type))
 
 ;; TODO - Refactor, rename symbols accordingly!
-(define %home-path "/home/aloysius/.config/")
+(define %home-path "/home/aloysius/.config/guix/")
 
 (define (home-file dir filename)
   "Resolve local config file."
@@ -20,11 +20,11 @@
 (define (home-xdg-local-files-gexp-service config)
   `(;; Guix Configuration Channels
     ("guix/channels.scm"
-     ,(home-file "config/system" "channels.scm"))))
+     ,(home-file "config/system" "channels.scm"))
 
     ;; Sway configuration files
     ("sway/config"
-     ,(home-file "files/sway" "config"))
+     ,(home-file "files/sway" "config"))))
 
 ;;     ("sway/bin/swaybar-status.sh"
 ;;      ,(home-file "files/sway/bin" "swaybar-status.sh"))
