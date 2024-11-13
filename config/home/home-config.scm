@@ -2,8 +2,10 @@
   #:use-module (gnu)
   #:use-module (gnu home)
   #:use-module (gnu home services)
+  #:use-module (gnu home services pm)
   #:use-module (gnu home services sound)
   #:use-module (gnu home services shells)
+  #:use-module (home services xdg-files)
   #:use-module (gnu packages)
   #:use-module (guix gexp)
   #:use-module (home packages emacs-config))
@@ -63,6 +65,8 @@
    (services
     (append
      (list
+      ;; XDG files configuration
+      (service home-xdg-local-files-service-type)
       ;; Primary Bash configuration
       (service
        home-bash-service-type

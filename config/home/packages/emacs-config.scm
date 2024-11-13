@@ -1,4 +1,5 @@
 (define-module (home packages emacs-config)
+  #:use-module (gnu)
   #:use-module (gnu packages)
   #:export (emacs-config))
 
